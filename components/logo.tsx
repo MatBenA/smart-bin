@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-export const Logo = ({ className }: { className?: string }) => {
+export const Logo = ({  }: { className?: string }) => {
     return (
         <svg
             width="50"
@@ -11,8 +11,8 @@ export const Logo = ({ className }: { className?: string }) => {
         >
             <defs>
                 <linearGradient id="greenGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stop-color="#66BB6A" />
-                    <stop offset="100%" stop-color="#2E7D32" />
+                    <stop offset="0%" stopColor="#66BB6A" />
+                    <stop offset="100%" stopColor="#2E7D32" />
                 </linearGradient>
             </defs>
 
@@ -33,7 +33,7 @@ export const Logo = ({ className }: { className?: string }) => {
                 x2="24"
                 y2="46"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
             />
             <line
                 x1="32"
@@ -41,7 +41,7 @@ export const Logo = ({ className }: { className?: string }) => {
                 x2="32"
                 y2="46"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
             />
             <line
                 x1="40"
@@ -49,7 +49,7 @@ export const Logo = ({ className }: { className?: string }) => {
                 x2="40"
                 y2="46"
                 stroke="white"
-                stroke-width="2"
+                strokeWidth="2"
             />
 
             <rect x="28" y="10" width="8" height="4" rx="1" fill="#2E7D32" />

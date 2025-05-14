@@ -38,7 +38,7 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <Image
-                                className="-z-10 order-first ml-auto h-56 w-full object-cover invert sm:h-96 lg:absolute lg:inset-0 lg:-right-20 lg:-top-96 lg:order-last lg:h-max lg:w-2/3 lg:object-contain dark:mix-blend-lighten dark:invert-0"
+                                className="-z-10 order-first ml-auto h-56 w-full object-cover sm:h-96 lg:absolute lg:inset-0 lg:-right-20 lg:-top-96 lg:order-last lg:h-max lg:w-2/3 lg:object-contain dark:mix-blend-lighten"
                                 src="https://img.freepik.com/vector-premium/educacion-maestros-ninos-sobre-reciclaje-diseno-ilustraciones_992692-593.jpg"
                                 alt="Abstract Object"
                                 height="4000"
