@@ -6,10 +6,10 @@ import { Button } from '@/components/ui/button'
 import React from 'react'
 
 const menuItems = [
-    { name: 'Features', href: '#link' },
-    { name: 'Solution', href: '#link' },
-    { name: 'Pricing', href: '#link' },
-    { name: 'About', href: '#link' },
+    { name: 'SmartBin', href: '#link' },
+    { name: 'Sobre nosotros', href: '#link' },
+    { name: 'Mision', href: '#link' },
+    { name: 'Precios', href: '#link' },
 ]
 
 export const HeroHeader = () => {
@@ -72,14 +72,14 @@ export const HeroHeader = () => {
                                     variant="outline"
                                     size="sm">
                                     <Link href="#">
-                                        <span>Login</span>
+                                        <span>Contactanos</span>
                                     </Link>
                                 </Button>
                                 <Button
                                     asChild
                                     size="sm">
                                     <Link href="#">
-                                        <span>Sign Up</span>
+                                        <span>Solicitar Demo</span>
                                     </Link>
                                 </Button>
                             </div>
